@@ -23,16 +23,17 @@ namespace PlacarBrasileirao.View
         private void OnSavePlacar(object sender, EventArgs args)
         {
 
-            /*var p = new Placar
-            {                
+            var p = new Placar
+            {
+                ID = Convert.ToUInt32(codigo.Text),
                 NroRodada = pckRodada.SelectedItem.ToString(),
                 Time1 = pckTime1.SelectedItem.ToString(),
                 GolTime1 = pckGolTime1.SelectedItem.ToString(),
                 Time2 = pckTime2.SelectedItem.ToString(),
                 GolTime2 = pckGolTime2.SelectedItem.ToString()
-            }*/
+            };
 
-            Placar p = BindingContext as Placar;
+            //Placar p = BindingContext as Placar;
             App.Database.SaveItemAsync(p);
             Navigation.PopAsync();
         }
