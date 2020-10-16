@@ -1,0 +1,16 @@
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\bin\Debug\netstandard2.0\PlacarBrasileirao.deps.json
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\bin\Debug\netstandard2.0\PlacarBrasileirao.dll
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\bin\Debug\netstandard2.0\ref\PlacarBrasileirao.dll
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\bin\Debug\netstandard2.0\PlacarBrasileirao.pdb
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\View\PageAddPlacar.xaml.g.cs
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\View\PagePlacares.xaml.g.cs
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.AssemblyInfoInputs.cache
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.AssemblyInfo.cs
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.csproj.CoreCompileInputs.cache
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.dll
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\ref\PlacarBrasileirao.dll
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.pdb
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao\obj\Debug\netstandard2.0\PlacarBrasileirao.csprojAssemblyReference.cache

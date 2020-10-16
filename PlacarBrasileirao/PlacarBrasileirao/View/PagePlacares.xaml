@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacarBrasileirao.View.PagePlacar"
+             xmlns:local="clr-namespace:PlacarBrasileirao.ViewModel" 
+             Title="Placares">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="ADD PLACAR" Clicked="OnClicked"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Orientation="Vertical">
+
+        <ListView x:Name="listView"
+                  Margin="20"
+                  ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Grid.Column="1" Grid.Row="1">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    
+                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding NroRodada}"/>
+                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="ª Rodada: "/>
+                                    <Span TextColor="Black" FontSize="12" Text="{Binding Time1}"/>
+                                    <Span FontSize="12" Text="  "/>
+                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime1}"/>
+                                    <Span TextColor="Black" FontSize="14" Text=" X "/>
+                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime2}"/>
+                                    <Span FontSize="12" Text="  "/>
+                                    <Span TextColor="Black" FontSize="12" Text="{Binding Time2}"/>                                    
+                                    
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

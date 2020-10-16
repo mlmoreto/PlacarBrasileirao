@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacarBrasileirao.View.PageAddPlacar"
+             Title="Novo Placar">
+
+    <ContentPage.Content>
+        <StackLayout Padding="10, 20, 10, 10" Orientation="Vertical">
+
+            <Label Text="Código" 
+                   FontSize="Small"
+                   x:Name="Codigo"/>
+            <Entry Text="{Binding ID}"/>
+            
+            <Label Text="Rodada" FontSize="Medium" />
+
+            <Picker x:Name="pckRodada" HorizontalOptions="FillAndExpand" SelectedItem="{Binding NroRodada}">                
+                <Picker.Items>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                    <x:String>9</x:String>
+                    <x:String>10</x:String>
+                    <x:String>11</x:String>
+                    <x:String>12</x:String>
+                    <x:String>13</x:String>
+                    <x:String>14</x:String>
+                    <x:String>15</x:String>
+                    <x:String>16</x:String>
+                    <x:String>17</x:String>
+                    <x:String>18</x:String>
+                    <x:String>19</x:String>
+                    <x:String>20</x:String>
+                    <x:String>21</x:String>
+                    <x:String>22</x:String>
+                    <x:String>23</x:String>
+                    <x:String>24</x:String>
+                    <x:String>25</x:String>
+                    <x:String>26</x:String>
+                    <x:String>27</x:String>
+                    <x:String>28</x:String>
+                    <x:String>29</x:String>
+                    <x:String>30</x:String>
+                    <x:String>31</x:String>
+                    <x:String>32</x:String>
+                    <x:String>33</x:String>
+                    <x:String>34</x:String>
+                    <x:String>35</x:String>
+                    <x:String>36</x:String>
+                    <x:String>37</x:String>
+                    <x:String>38</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker x:Name="pckTime1" HorizontalOptions="FillAndExpand" Title="Time 1" SelectedItem="{Binding Time1}">
+                <Picker.Items>
+                    <x:String>Athletico Paranaense</x:String>
+                    <x:String>Atlético Goianiense</x:String>
+                    <x:String>Atlético Mineiro</x:String>
+                    <x:String>Bahia</x:String>
+                    <x:String>Botafogo</x:String>
+                    <x:String>Ceará</x:String>
+                    <x:String>Corinthians</x:String>
+                    <x:String>Coritiba</x:String>
+                    <x:String>Flamengo</x:String>
+                    <x:String>Fluminense</x:String>
+                    <x:String>Fortaleza</x:String>
+                    <x:String>Goiás</x:String>
+                    <x:String>Grêmio</x:String>
+                    <x:String>Internacional</x:String>
+                    <x:String>Palmeiras</x:String>
+                    <x:String>Red Bull Bragantino</x:String>
+                    <x:String>Santos</x:String>
+                    <x:String>São Paulo</x:String>
+                    <x:String>Sport</x:String>
+                    <x:String>Vasco da Gama</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker x:Name="pckGolTime1" HorizontalOptions="FillAndExpand" Title="Gol(s) Time 1" SelectedItem="{Binding GolTime1}">
+                <Picker.Items>
+                    <x:String>0</x:String>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                    <x:String>9</x:String>
+                    <x:String>10</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="X" FontSize="Large" VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black"/>
+
+            <Picker x:Name="pckTime2" HorizontalOptions="FillAndExpand" Title="Time 2" SelectedItem="{Binding Time2}">
+                <Picker.Items>
+                    <x:String>Athletico Paranaense</x:String>
+                    <x:String>Atlético Goianiense</x:String>
+                    <x:String>Atlético Mineiro</x:String>
+                    <x:String>Bahia</x:String>
+                    <x:String>Botafogo</x:String>
+                    <x:String>Ceará</x:String>
+                    <x:String>Corinthians</x:String>
+                    <x:String>Coritiba</x:String>
+                    <x:String>Flamengo</x:String>
+                    <x:String>Fluminense</x:String>
+                    <x:String>Fortaleza</x:String>
+                    <x:String>Goiás</x:String>
+                    <x:String>Grêmio</x:String>
+                    <x:String>Internacional</x:String>
+                    <x:String>Palmeiras</x:String>
+                    <x:String>Red Bull Bragantino</x:String>
+                    <x:String>Santos</x:String>
+                    <x:String>São Paulo</x:String>
+                    <x:String>Sport</x:String>
+                    <x:String>Vasco da Gama</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker x:Name="pckGolTime2" HorizontalOptions="FillAndExpand" Title="Gol(s) Time 2" SelectedItem="{Binding GolTime2}">
+                <Picker.Items>
+                    <x:String>0</x:String>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                    <x:String>9</x:String>
+                    <x:String>10</x:String>
+                </Picker.Items>
+            </Picker>
+
+
+            <Button Text="Salvar"
+                    FontSize="12"
+                    WidthRequest="70"
+                    Clicked="OnSavePlacar"
+                    x:Name="btnSalvar"
+                    BackgroundColor="Green"
+                    TextColor="White"/>
+
+            <Button Text="Excluir"
+                    FontSize="12"
+                    WidthRequest="70"
+                    Clicked="OnDeletePlacar"
+                    x:Name="btnExcluir"
+                    BackgroundColor="Red"
+                    TextColor="White"/> 
+
+        </StackLayout>
+    </ContentPage.Content>    
+</ContentPage>
