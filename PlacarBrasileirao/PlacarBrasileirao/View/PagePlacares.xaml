@@ -6,40 +6,51 @@
              Title="Placares">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="ADD PLACAR" Clicked="OnClicked"/>
+        <ToolbarItem Text="ADD PLACAR" Clicked="OnClicked" IconImageSource="">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource"
+                            WinPhone="Toolkit.Content/addPlacar2.png"
+                            Android="addPlacar2.png"
+                            iOS="addPlacar2.png"
+                            />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <StackLayout Orientation="Vertical">
+    <ScrollView Grid.Row="1"> 
+        <StackLayout Orientation="Vertical">
+        
+            <Image HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Source="serieA.jpg"/>
 
-        <ListView x:Name="listView"
-                  Margin="20"
-                  ItemSelected="OnItemSelected">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Label Grid.Column="1" Grid.Row="1">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    
-                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding NroRodada}"/>
-                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="ª Rodada: "/>
-                                    <Span TextColor="Black" FontSize="12" Text="{Binding Time1}"/>
-                                    <Span FontSize="12" Text="  "/>
-                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime1}"/>
-                                    <Span TextColor="Black" FontSize="14" Text=" X "/>
-                                    <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime2}"/>
-                                    <Span FontSize="12" Text="  "/>
-                                    <Span TextColor="Black" FontSize="12" Text="{Binding Time2}"/>                                    
-                                    
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
+            <ListView x:Name="listView"
+                      Margin="20"
+                      ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Grid.Column="1" Grid.Row="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
 
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                                        <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding NroRodada}"/>
+                                        <Span TextColor="DarkSlateGray" FontSize="12" Text="ª Rodada: "/>
+                                        <Span TextColor="Black" FontSize="12" Text="{Binding Time1}"/>
+                                        <Span FontSize="12" Text="  "/>
+                                        <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime1}"/>
+                                        <Span TextColor="Black" FontSize="14" Text=" X "/>
+                                        <Span TextColor="DarkSlateGray" FontSize="12" Text="{Binding GolTime2}"/>
+                                        <Span FontSize="12" Text="  "/>
+                                        <Span TextColor="Black" FontSize="12" Text="{Binding Time2}"/>
 
-    </StackLayout>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
 
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

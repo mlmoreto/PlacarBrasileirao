@@ -5,16 +5,10 @@
              Title="Novo Placar">
 
     <ContentPage.Content>
-        <StackLayout Padding="10, 20, 10, 10" Orientation="Vertical">
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="10, 20, 10, 10" Orientation="Vertical">
 
-            <Label Text="Código" 
-                   FontSize="Small"
-                   x:Name="Codigo"/>
-            <Entry Text="{Binding ID}"/>
-            
-            <Label Text="Rodada" FontSize="Medium" />
-
-            <Picker x:Name="pckRodada" HorizontalOptions="FillAndExpand" SelectedItem="{Binding NroRodada}">                
+                <Picker x:Name="pckRodada" HorizontalOptions="FillAndExpand" Title="Rodada Número" SelectedItem="{Binding NroRodada}">                
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -98,9 +92,9 @@
                 </Picker.Items>
             </Picker>
 
-            <Label Text="X" FontSize="Large" VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black"/>
+                <Image Source="versus.png"/>
 
-            <Picker x:Name="pckTime2" HorizontalOptions="FillAndExpand" Title="Time 2" SelectedItem="{Binding Time2}">
+                <Picker x:Name="pckTime2" HorizontalOptions="FillAndExpand" Title="Time 2" SelectedItem="{Binding Time2}">
                 <Picker.Items>
                     <x:String>Athletico Paranaense</x:String>
                     <x:String>Atlético Goianiense</x:String>
@@ -141,23 +135,32 @@
                 </Picker.Items>
             </Picker>
 
+                <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Button Text="Salvar"
+                            FontSize="12"
+                            Clicked="OnSavePlacar"
+                            x:Name="btnSalvar"
+                            HorizontalOptions="Center"
+                            VerticalOptions="CenterAndExpand"
+                            BackgroundColor="Green"
+                            Grid.Row="0"
+                            Grid.Column="0"        
+                            TextColor="White"/>
 
-            <Button Text="Salvar"
-                    FontSize="12"
-                    WidthRequest="70"
-                    Clicked="OnSavePlacar"
-                    x:Name="btnSalvar"
-                    BackgroundColor="Green"
-                    TextColor="White"/>
+                    <Button Text="Excluir"
+                            FontSize="12"
+                            Clicked="OnDeletePlacar"
+                            x:Name="btnExcluir"
+                            HorizontalOptions="Center"
+                            VerticalOptions="CenterAndExpand"
+                            BackgroundColor="Red"
+                            Grid.Row="0"
+                            Grid.Column="1"         
+                            TextColor="White"/>
 
-            <Button Text="Excluir"
-                    FontSize="12"
-                    WidthRequest="70"
-                    Clicked="OnDeletePlacar"
-                    x:Name="btnExcluir"
-                    BackgroundColor="Red"
-                    TextColor="White"/> 
+                </Grid>
 
-        </StackLayout>
+            </StackLayout>
+     </ScrollView>
     </ContentPage.Content>    
 </ContentPage>

@@ -465,3 +465,17 @@ D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasi
 D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\app_shared_libraries\x86\libxamarin-app.so
 D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\app_shared_libraries\x86_64\libxamarin-app.so
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\android\bin\classes.dex
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_ConvertCustomView.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\brasileirao2.jpg
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\brasileirao.jpg
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\addplacar.png
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\addplacar2.png
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\versus.png
+D:\Pos\WindowsPhone\ProjetoFinal\PlacarBrasileirao\PlacarBrasileirao\PlacarBrasileirao.Android\obj\Debug\90\res\drawable\seriea.jpg

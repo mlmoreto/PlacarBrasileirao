@@ -135,9 +135,25 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\addPlacar2.png" />
     <BundleResource Include="Resources\tab_feed.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tab_about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\brasileirao2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\brasileirao.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\addPlacar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\versus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\serieA.JPG" />
   </ItemGroup>
 </Project>

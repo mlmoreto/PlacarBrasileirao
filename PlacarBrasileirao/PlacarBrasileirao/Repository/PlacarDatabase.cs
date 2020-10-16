@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlacarBrasileirao.Repository
 {
-    class PlacarDatabase
+    public class PlacarDatabase
     {
         readonly SQLiteAsyncConnection database;
 
@@ -31,7 +31,7 @@ namespace PlacarBrasileirao.Repository
 
         public Task<int> SaveItemAsync(Placar item)
         {
-            if (item.ID == 0 || item.ID.Equals(null))
+            if (item.ID == 0)
             {
                 return database.InsertAsync(item);
                 //Toast.MakeText(this, 'Sucesso!', ToastLength.Long).Show();

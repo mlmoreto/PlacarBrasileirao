@@ -1,4 +1,5 @@
-﻿using PlacarBrasileirao.Model;
+﻿
+using PlacarBrasileirao.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +17,10 @@ namespace PlacarBrasileirao.View
         public PageAddPlacar()
         {
             InitializeComponent();
-
-            this.BindingContext = new PageAddPlacar();
         }
 
         // Salva o Placar capturando os dados informados na tela de ADD PLACAR
-        public void OnSavePlacar(object sender, EventArgs args)
+        private void OnSavePlacar(object sender, EventArgs args)
         {
 
             /*var p = new Placar
